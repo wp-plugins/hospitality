@@ -1,0 +1,847 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hospitality WordPress Plugin\n"
+"POT-Creation-Date: 2015-05-18 12:22-0800\n"
+"PO-Revision-Date: 2015-05-18 12:24-0800\n"
+"Last-Translator: Wes Kempfer <wkempferjr@gmail.com>\n"
+"Language-Team: Guestaba, Wes Kempfer, James Nobles <wkemfperjr@tnotw.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-hospitality-admin.php:94
+msgid "Error retrieving amenity set list."
+msgstr "Error retrieving amenity set list."
+
+#: ../admin/class-hospitality-admin.php:95
+msgid "Error retrieving pricing model."
+msgstr "Error retrieving pricing model."
+
+#: ../admin/class-hospitality-admin.php:96
+#: ../public/class-hospitality-public.php:206
+msgid "Server error:"
+msgstr "Server error:"
+
+#: ../admin/class-hospitality-admin.php:97
+msgid "No amenity set selected."
+msgstr "No amenity set selected."
+
+#: ../admin/class-hospitality-admin.php:98
+msgid "No pricing model selected."
+msgstr "No pricing model selected."
+
+#: ../includes/class-hospitality-ajax.php:42
+msgid "Invalid rooms slider request."
+msgstr "Invalid rooms slider request."
+
+#: ../includes/class-hospitality-ajax.php:46
+msgid "Could not get slider config for post."
+msgstr "Could not get slider config for post."
+
+#: ../includes/class-hospitality-ajax.php:52
+msgid "Invalid get amenity set list request."
+msgstr "Invalid get amenity set list request."
+
+#: ../includes/class-hospitality-ajax.php:57
+msgid "Could not get amenity set list with specified post ID."
+msgstr "Could not get amenity set list with specified post ID."
+
+#: ../includes/class-hospitality-ajax.php:63
+msgid "Invalid get price model request."
+msgstr "Invalid get price model request."
+
+#: ../includes/class-hospitality-ajax.php:68
+msgid "Could not get price model with specified post ID."
+msgstr "Could not get price model with specified post ID."
+
+#: ../includes/class-hospitality-ajax.php:74
+msgid "Could not get post edit options."
+msgstr "Could not get post edit options."
+
+#: ../includes/class-hospitality-ajax.php:80
+msgid "Unknown ajax request sent from client."
+msgstr "Unknown ajax request sent from client."
+
+#: ../includes/class-hospitality-ajax.php:158
+msgid "No metadata for post"
+msgstr "No metadata for post"
+
+#: ../includes/class-hospitality-amenity-sets-meta-box.php:22
+msgid "Amenity Sets Options"
+msgstr "Amenity Sets Options"
+
+#: ../includes/class-hospitality-amenity-sets-meta-box.php:49
+msgid "Amenity Set Settings"
+msgstr "Amenity Set Settings"
+
+#: ../includes/class-hospitality-amenity-sets-meta-box.php:51
+#: ../includes/class-hospitality-pricing-models-meta-box.php:43
+#: ../includes/class-hospitality-rooms-meta-box.php:86
+msgid "Description"
+msgstr "Description"
+
+#: ../includes/class-hospitality-amenity-sets-meta-box.php:61
+msgid "Amenity Set List"
+msgstr "Amenity Set Settings"
+
+#: ../includes/class-hospitality-amenity-sets-meta-box.php:180
+#: ../includes/class-hospitality-pricing-models-meta-box.php:154
+#: ../includes/class-hospitality-rooms-meta-box.php:126
+#: ../includes/class-hospitality-rooms-meta-box.php:321
+#: ../includes/class-hospitality-rooms-meta-box.php:354
+msgid "X"
+msgstr "X"
+
+#: ../includes/class-hospitality-meta-box.php:44
+msgid "-- Choose one --"
+msgstr "-- Choose one --"
+
+#: ../includes/class-hospitality-meta-box.php:684
+msgid "+"
+msgstr "+"
+
+#: ../includes/class-hospitality-meta-box.php:719
+msgid "--Choose One--"
+msgstr "--Choose One--"
+
+#: ../includes/class-hospitality-pricing-models-meta-box.php:15
+msgid "Pricing Models Options"
+msgstr "Pricing Models Options"
+
+#: ../includes/class-hospitality-pricing-models-meta-box.php:41
+msgid "Pricing Model Settings"
+msgstr "Pricing Model Settings"
+
+#: ../includes/class-hospitality-pricing-models-meta-box.php:57
+msgid "Pricing"
+msgstr "Pricing"
+
+#: ../includes/class-hospitality-pricing-models-meta-box.php:108
+#: ../includes/class-hospitality-rooms-meta-box.php:384
+msgid "Click this button to add a new item to this list."
+msgstr "Click this button to add a new item to this list."
+
+#: ../includes/class-hospitality-pricing-models-meta-box.php:109
+msgid ""
+"For each price panel, enter date ranges during which a price will be in "
+"effect. Click the + button below to add a new price panel."
+msgstr ""
+"For each price panel, enter date ranges during which a price will be in "
+"effect. Click the + button below to add a new price panel."
+
+#: ../includes/class-hospitality-pricing-models-meta-box.php:110
+msgid "Click here to delete this pricing panel."
+msgstr "Click here to delete this pricing panel."
+
+#: ../includes/class-hospitality-rooms-meta-box.php:23
+msgid "Rooms Display Options"
+msgstr "Rooms Display Options"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:75
+msgid "Content Settings"
+msgstr "Content Settings"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:77
+msgid "Slogan"
+msgstr "Slogan"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:99
+msgid "Excerpt"
+msgstr "Excerpt"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:109
+msgid "Override Details Page"
+msgstr "Override Details Page"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:122
+msgid "Amenity Settings"
+msgstr "Amenity Settings"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:124
+msgid "Arrow"
+msgstr "Arrow"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:125
+msgid "Check Mark"
+msgstr "Check Mark"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:128
+msgid "Amenity List Icon"
+msgstr "Amenity List Icon"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:135
+#: ../model/class-amenity-sets-post-type.php:67
+msgid "Amenity Set"
+msgstr "Amenity Set"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:145
+msgid "Room Specific Amenities"
+msgstr "Room Specific Amenities"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:161
+msgid "Select pricing model"
+msgstr "Select pricing model"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:182
+msgid "Slider Images"
+msgstr "Slider Images"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:191
+msgid "Fade"
+msgstr "Fade"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:192
+msgid "Slide"
+msgstr "Slide"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:194
+msgid "Animation Effects"
+msgstr "Slide"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:201
+msgid "Animation Duration (in ms)"
+msgstr "Animation Duration (in ms)"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:208
+msgid "Auto Animation"
+msgstr "Auto Animation"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:215
+msgid "Auto Animation Speed (in ms)"
+msgstr "Auto Animation Speed (in ms)"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:222
+msgid "Pause on hover"
+msgstr "Pause on hover"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:228
+msgid "Alternative Image Shortcode (for example, \"[metaslider]\")"
+msgstr "Alternative Image Shortcode (for example, \"[metaslider]\")"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:353
+msgid "Select Image"
+msgstr "Select Image"
+
+#: ../includes/class-hospitality-rooms-meta-box.php:385
+msgid ""
+"Click this button select or upload a different image. For best results, "
+"choose images 600 px wide by 150 px high."
+msgstr ""
+"Click this button select or upload a different image. For best results, "
+"choose images 600 px wide by 150 px high."
+
+#: ../includes/class-hospitality-rooms-meta-box.php:386
+msgid "Click this button to remove this image from the slider."
+msgstr "Click this button to remove this image from the slider."
+
+#: ../includes/class-hospitality-rooms-meta-box.php:387
+msgid "Click this button to remove this item from the list."
+msgstr "Click this button to remove this item from the list."
+
+#: ../includes/class-hospitality-rooms-meta-box.php:388
+msgid ""
+"Choose from this list only a custom page containing details for this room. "
+"Leave this unselected unless such a page has been set up for this room."
+msgstr ""
+"Choose from this list only a custom page containing details for this room. "
+"Leave this unselected unless such a page has been set up for this room."
+
+#: ../includes/class-hospitality-rooms-meta-box.php:389
+msgid ""
+"This is the icon that will appear as the bullet for each listed amenity."
+msgstr ""
+"This is the icon that will appear as the bullet for each listed amenity."
+
+#: ../includes/class-hospitality-rooms-meta-box.php:390
+msgid ""
+"This is a list of standard amenity sets defined in the Amenity Sets post "
+"type page."
+msgstr ""
+"This is a list of standard amenity sets defined in the Amenity Sets post "
+"type page."
+
+#: ../includes/class-hospitality-rooms-meta-box.php:391
+msgid ""
+"These are amenities that come only with this room. Items in this list can be "
+"dragged to change the list order. Click the + button at the bottom of the "
+"list to add a new item."
+msgstr ""
+"These are amenities that come only with this room. Items in this list can be "
+"dragged to change the list order. Click the + button at the bottom of the "
+"list to add a new item."
+
+#: ../includes/class-hospitality-rooms-meta-box.php:392
+msgid ""
+"Pricing models define how a room price varies based on things like seasons, "
+"upcoming events, and days of the week. They are set up in the Pricing Models "
+"post type page."
+msgstr ""
+"Pricing models define how a room price varies based on things like seasons, "
+"upcoming events, and days of the week. They are set up in the Pricing Models "
+"post type page."
+
+#: ../includes/class-hospitality-rooms-meta-box.php:393
+msgid ""
+"Items in this list can be dragged to change the list order. Click the + "
+"button at the bottom of the list to add a new item."
+msgstr ""
+"Items in this list can be dragged to change the list order. Click the + "
+"button at the bottom of the list to add a new item."
+
+#: ../includes/class-hospitality-rooms-meta-box.php:394
+msgid ""
+"This is the amount of time it takes the animation to completely transition "
+"from one slide to the next."
+msgstr ""
+"This is the amount of time it takes the animation to completely transition "
+"from one slide to the next."
+
+#: ../includes/class-hospitality-rooms-meta-box.php:395
+msgid ""
+"This turns the slider animation on or off. If off, visitors must manually "
+"click the navigation buttons to transition between slides."
+msgstr ""
+"This turns the slider animation on or off. If off, visitors must manually "
+"click the navigation buttons to transition between slides."
+
+#: ../includes/class-hospitality-rooms-meta-box.php:396
+msgid ""
+"This is the amount of time a slide is displayed before the animation "
+"transitions to the next slide."
+msgstr ""
+"This is the amount of time a slide is displayed before the animation "
+"transitions to the next slide."
+
+#: ../includes/class-hospitality-rooms-meta-box.php:397
+msgid ""
+"The Guestaba Rooms slider can be completely replaced with another slider, or "
+"anything else, by entering a valid shortcode here."
+msgstr ""
+"The Guestaba Rooms slider can be completely replaced with another slider, or "
+"anything else, by entering a valid shortcode here."
+
+#: ../includes/class-hospitality-settings.php:37
+msgid "Amenities"
+msgstr "Amenities"
+
+#: ../includes/class-hospitality-settings.php:147
+msgid "Hospitality General Settings"
+msgstr "Hospitality General Settings"
+
+#: ../includes/class-hospitality-settings.php:154
+msgid "Remove plugin post types, settings and other data on uninstall"
+msgstr "Remove plugin post types, settings and other data on uninstall"
+
+#: ../includes/class-hospitality-settings.php:165
+msgid "Hospitality Room List Settings"
+msgstr "Hospitality Room List Settings"
+
+#: ../includes/class-hospitality-settings.php:174
+msgid "Room excerpt maximum character count"
+msgstr "Room excerpt maximum character count"
+
+#: ../includes/class-hospitality-settings.php:187
+msgid "Hospitality Room Pages Settings"
+msgstr "Hospitality Room Pages Settings"
+
+#: ../includes/class-hospitality-settings.php:196
+msgid "Amenities list title"
+msgstr "Amenities list title"
+
+#: ../includes/class-hospitality-settings.php:347
+msgid "General settings for Hospitality Plugin"
+msgstr "General settings for Hospitality Plugin"
+
+#: ../includes/class-hospitality-settings.php:355
+msgid "Default settings for room listing options."
+msgstr "Default settings for room listing options."
+
+#: ../includes/class-hospitality-settings.php:363
+msgid "Default settings for room pages."
+msgstr "Default settings for room pages."
+
+#: ../includes/class-hospitality-shortcodes.php:201
+msgid "Room Pricing"
+msgstr "Room Pricing"
+
+#: ../includes/class-hospitality-shortcodes.php:416
+msgid "[See details]"
+msgstr "[See details]"
+
+#: ../includes/class-hospitality-shortcodes.php:462
+msgid "Click here for all room details."
+msgstr "Click here for all room details."
+
+#: ../includes/class-hospitality-shortcodes.php:463
+msgid "...Room Details"
+msgstr "...Room Details"
+
+#: ../includes/class-hospitality-shortcodes.php:529
+msgid "Rooms & Rates"
+msgstr "Rooms & Rates"
+
+#: ../includes/class-hospitality-shortcodes.php:645
+msgid "Call"
+msgstr "Call"
+
+#: ../includes/class-hospitality-shortcodes.php:647
+msgid "Rates (depending on season:)"
+msgstr "Rates (depending on season:)"
+
+#: ../includes/class-hospitality-shortcodes.php:701
+msgid "Back to room listing"
+msgstr "Back to room listing"
+
+#: ../model/class-amenity-sets-post-type.php:66
+msgid "Amenity Sets Listings"
+msgstr "Amenity Sets Listings"
+
+#: ../model/class-amenity-sets-post-type.php:68
+#: ../model/class-amenity-sets-post-type.php:82
+msgid "Amenity Sets"
+msgstr "Amenity Sets"
+
+#: ../model/class-amenity-sets-post-type.php:69
+msgid "Parent Amenity Set:"
+msgstr "Parent Amenity Set:"
+
+#: ../model/class-amenity-sets-post-type.php:70
+msgid "All Amenity Sets"
+msgstr "All Amenity Sets"
+
+#: ../model/class-amenity-sets-post-type.php:71
+msgid "View Amenity Set"
+msgstr "View Amenity Set"
+
+#: ../model/class-amenity-sets-post-type.php:72
+msgid "Add New Amenity Set"
+msgstr "Add New Amenity Set"
+
+#: ../model/class-amenity-sets-post-type.php:73
+#: ../model/class-pricing-models-post-type.php:73
+#: ../model/class-rooms-post-type.php:73
+msgid "Add New"
+msgstr "Add New"
+
+#: ../model/class-amenity-sets-post-type.php:74
+msgid "Edit Amenity Set"
+msgstr "Edit Amenity Set"
+
+#: ../model/class-amenity-sets-post-type.php:75
+msgid "Update Amenity Set"
+msgstr "Update Amenity Set"
+
+#: ../model/class-amenity-sets-post-type.php:76
+msgid "Search Amenity Sets"
+msgstr "Search Amenity Sets"
+
+#: ../model/class-amenity-sets-post-type.php:77
+msgid "No Amenity Sets found"
+msgstr "No Amenity Sets found"
+
+#: ../model/class-amenity-sets-post-type.php:78
+msgid "No Amenity Sets found in Trash"
+msgstr "No Amenity Sets found in Trash"
+
+#: ../model/class-amenity-sets-post-type.php:84
+#: ../model/class-pricing-models-post-type.php:84
+msgid "Display your works by filters"
+msgstr "Display your works by filters"
+
+#: ../model/class-pricing-models-post-type.php:66
+msgid "Pricing Models Listings"
+msgstr "Pricing Models Listings"
+
+#: ../model/class-pricing-models-post-type.php:67
+msgid "Pricing Model"
+msgstr "Pricing Model"
+
+#: ../model/class-pricing-models-post-type.php:68
+#: ../model/class-pricing-models-post-type.php:82
+msgid "Pricing Models"
+msgstr "Pricing Models"
+
+#: ../model/class-pricing-models-post-type.php:69
+msgid "Parent Pricing Model:"
+msgstr "Parent Pricing Model:"
+
+#: ../model/class-pricing-models-post-type.php:70
+msgid "All Pricing Models"
+msgstr "All Pricing Models"
+
+#: ../model/class-pricing-models-post-type.php:71
+msgid "View Pricing Model"
+msgstr "View Pricing Model"
+
+#: ../model/class-pricing-models-post-type.php:72
+msgid "Add New Pricing Model"
+msgstr "Add New Pricing Model"
+
+#: ../model/class-pricing-models-post-type.php:74
+msgid "Edit Pricing Model"
+msgstr "Edit Pricing Model"
+
+#: ../model/class-pricing-models-post-type.php:75
+msgid "Update Pricing Model"
+msgstr "Update Pricing Model"
+
+#: ../model/class-pricing-models-post-type.php:76
+msgid "Search Pricing Models"
+msgstr "Search Pricing Models"
+
+#: ../model/class-pricing-models-post-type.php:77
+msgid "No Pricing Models found"
+msgstr "No Pricing Models found"
+
+#: ../model/class-pricing-models-post-type.php:78
+msgid "No Pricing Models found in Trash"
+msgstr "No Pricing Models found in Trash"
+
+#: ../model/class-rooms-post-type.php:66
+msgid "Room Listings"
+msgstr "Room Listings"
+
+#: ../model/class-rooms-post-type.php:67
+msgid "Room"
+msgstr "Room"
+
+#: ../model/class-rooms-post-type.php:68 ../model/class-rooms-post-type.php:82
+msgid "Rooms"
+msgstr "Rooms"
+
+#: ../model/class-rooms-post-type.php:69
+msgid "Parent Room:"
+msgstr "Parent Room:"
+
+#: ../model/class-rooms-post-type.php:70
+msgid "All Rooms"
+msgstr "All Rooms"
+
+#: ../model/class-rooms-post-type.php:71
+msgid "View Room"
+msgstr "View Room"
+
+#: ../model/class-rooms-post-type.php:72
+msgid "Add New Room"
+msgstr "Add New Room"
+
+#: ../model/class-rooms-post-type.php:74
+msgid "Edit Room"
+msgstr "Edit Room"
+
+#: ../model/class-rooms-post-type.php:75
+msgid "Update Room"
+msgstr "Update Room"
+
+#: ../model/class-rooms-post-type.php:76
+msgid "Search Rooms"
+msgstr "Search Rooms"
+
+#: ../model/class-rooms-post-type.php:77
+msgid "No rooms found"
+msgstr "No rooms found"
+
+#: ../model/class-rooms-post-type.php:78
+msgid "No rooms found in Trash"
+msgstr "No rooms found in Trash"
+
+#: ../model/class-rooms-post-type.php:84
+msgid "Room description goes here."
+msgstr "Room description goes here."
+
+#: ../public/class-hospitality-public.php:205
+msgid "Error retrieving slider JS options."
+msgstr "Error retrieving slider JS options."
+
+#~ msgid "Room desciption excerpt length"
+#~ msgstr "Room desciption excerpt length"
+
+#~ msgid "Room listing default number of columns"
+#~ msgstr "Room listing default number of columns"
+
+#~ msgid "Use widget area instead of slider"
+#~ msgstr "Use widget area instead of slider"
+
+#~ msgid "The Colorpicker only allows valid hexadecimal values."
+#~ msgstr "The Colorpicker only allows valid hexadecimal values."
+
+#~ msgid "Send to Item"
+#~ msgstr "Send to Item"
+
+#~ msgid "Remove Media"
+#~ msgstr "Remove Media"
+
+#~ msgid "Are you sure you want to reset back to the defaults?"
+#~ msgstr "Are you sure you want to reset back to the defaults?"
+
+#~ msgid "You can't remove this! But you can edit the values."
+#~ msgstr "You can't remove this! But you can edit the values."
+
+#~ msgid "Are you sure you want to remove this?"
+#~ msgstr "Are you sure you want to remove this?"
+
+#~ msgid "Are you sure you want to activate this layout?"
+#~ msgstr "Are you sure you want to activate this layout?"
+
+#~ msgid "Sorry, you can't have settings three levels deep."
+#~ msgstr "Sorry, you can't have settings three levels deep."
+
+#~ msgid "Options Meta"
+#~ msgstr "Options Meta"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Sample Text Field Label"
+#~ msgstr "Sample Text Field Label"
+
+#~ msgid "Description for the sample text field."
+#~ msgstr "Description for the sample text field."
+
+#~ msgid "Layout activated."
+#~ msgstr "Layout activated."
+
+#~ msgid "Settings updated."
+#~ msgstr "Settings updated."
+
+#~ msgid "Settings could not be saved."
+#~ msgstr "Settings could not be saved."
+
+#~ msgid "Settings Imported."
+#~ msgstr "Settings Imported."
+
+#~ msgid "Settings could not be imported."
+#~ msgstr "Settings could not be imported."
+
+#~ msgid "Data Imported."
+#~ msgstr "Data Imported."
+
+#~ msgid "Data could not be imported."
+#~ msgstr "Data could not be imported."
+
+#~ msgid "Layouts Imported."
+#~ msgstr "Layouts Imported."
+
+#~ msgid "Layouts could not be imported."
+#~ msgstr "Layouts could not be imported."
+
+#~ msgid "Layouts Updated."
+#~ msgstr "Layouts Updated."
+
+#~ msgid "Layouts could not be updated."
+#~ msgstr "Layouts could not be updated."
+
+#~ msgid "Left Sidebar"
+#~ msgstr "Left Sidebar"
+
+#~ msgid "Right Sidebar"
+#~ msgstr "Right Sidebar"
+
+#~ msgid "Full Width (no sidebar)"
+#~ msgstr "Full Width (no sidebar)"
+
+#~ msgid "Dual Sidebar"
+#~ msgstr "Dual Sidebar"
+
+#~ msgid "Left Dual Sidebar"
+#~ msgstr "Left Dual Sidebar"
+
+#~ msgid "Right Dual Sidebar"
+#~ msgstr "Right Dual Sidebar"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Link"
+#~ msgstr "Link"
+
+#~ msgid "edit"
+#~ msgstr "edit"
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~ msgid "Delete"
+#~ msgstr "Delete"
+
+#~ msgid ""
+#~ "<strong>Section Title</strong>: Displayed as a menu item on the Theme "
+#~ "Options page."
+#~ msgstr ""
+#~ "<strong>Section Title</strong>: Displayed as a menu item on the Theme "
+#~ "Options page."
+
+#~ msgid ""
+#~ "<strong>Section ID</strong>: A unique lower case alphanumeric string, "
+#~ "underscores allowed."
+#~ msgstr ""
+#~ "<strong>Section ID</strong>: A unique lower case alphanumeric string, "
+#~ "underscores allowed."
+
+#~ msgid ""
+#~ "<strong>Label</strong>: Displayed as the label of a form element on the "
+#~ "Theme Options page."
+#~ msgstr ""
+#~ "<strong>Label</strong>: Displayed as the label of a form element on the "
+#~ "Theme Options page."
+
+#~ msgid ""
+#~ "<strong>ID</strong>: A unique lower case alphanumeric string, underscores "
+#~ "allowed."
+#~ msgstr ""
+#~ "<strong>ID</strong>: A unique lower case alphanumeric string, underscores "
+#~ "allowed."
+
+#~ msgid ""
+#~ "<strong>Type</strong>: Choose one of the available option types from the "
+#~ "dropdown."
+#~ msgstr ""
+#~ "<strong>Type</strong>: Choose one of the available option types from the "
+#~ "dropdown."
+
+#~ msgid ""
+#~ "<strong>Description</strong>: Enter a detailed description for the users "
+#~ "to read on the Theme Options page, HTML is allowed. This is also where "
+#~ "you enter content for both the Textblock & Textblock Titled option types."
+#~ msgstr ""
+#~ "<strong>Description</strong>: Enter a detailed description for the users "
+#~ "to read on the Theme Options page, HTML is allowed. This is also where "
+#~ "you enter content for both the Textblock & Textblock Titled option types."
+
+#~ msgid ""
+#~ "<strong>Choices</strong>: This will only affect the following option "
+#~ "types: Checkbox, Radio, Select & Select Image."
+#~ msgstr ""
+#~ "<strong>Choices</strong>: This will only affect the following option "
+#~ "types: Checkbox, Radio, Select & Select Image."
+
+#~ msgid "Add Choice"
+#~ msgstr "Add Choice"
+
+#~ msgid ""
+#~ "<strong>Settings</strong>: This will only affect the List Item option "
+#~ "type."
+#~ msgstr ""
+#~ "<strong>Settings</strong>: This will only affect the List Item option "
+#~ "type."
+
+#~ msgid "Add Setting"
+#~ msgstr "Add Setting"
+
+#~ msgid ""
+#~ "<strong>Standard</strong>: Setting the standard value for your option "
+#~ "only works for some option types. Read the <code>OptionTree-"
+#~ ">Documentation</code> for more information on which ones."
+#~ msgstr ""
+#~ "<strong>Standard</strong>: Setting the standard value for your option "
+#~ "only works for some option types. Read the <code>OptionTree-"
+#~ ">Documentation</code> for more information on which ones."
+
+#~ msgid ""
+#~ "<strong>Rows</strong>: Enter a numeric value for the number of rows in "
+#~ "your textarea. This will only affect the following option types: CSS, "
+#~ "Textarea, & Textarea Simple."
+#~ msgstr ""
+#~ "<strong>Rows</strong>: Enter a numeric value for the number of rows in "
+#~ "your textarea. This will only affect the following option types: CSS, "
+#~ "Textarea, & Textarea Simple."
+
+#~ msgid ""
+#~ "<strong>Post Type</strong>: Add a comma separated list of post type like "
+#~ "'post,page'. This will only affect the following option types: Custom "
+#~ "Post Type Checkbox, & Custom Post Type Select."
+#~ msgstr ""
+#~ "<strong>Post Type</strong>: Add a comma separated list of post type like "
+#~ "'post,page'. This will only affect the following option types: Custom "
+#~ "Post Type Checkbox, & Custom Post Type Select."
+
+#~ msgid ""
+#~ "<strong>Taxonomy</strong>: Add a comma separated list of any registered "
+#~ "taxonomy like 'category,post_tag'. This will only affect the following "
+#~ "option types: Taxonomy Checkbox, & Taxonomy Select."
+#~ msgstr ""
+#~ "<strong>Taxonomy</strong>: Add a comma separated list of any registered "
+#~ "taxonomy like 'category,post_tag'. This will only affect the following "
+#~ "option types: Taxonomy Checkbox, & Taxonomy Select."
+
+#~ msgid ""
+#~ "<strong>CSS Class</strong>: Add and optional class to this option type."
+#~ msgstr ""
+#~ "<strong>CSS Class</strong>: Add and optional class to this option type."
+
+#~ msgid "Label"
+#~ msgstr "Label"
+
+#~ msgid "Value"
+#~ msgstr "Value"
+
+#~ msgid "Image Source (Radio Image only)"
+#~ msgstr "Image Source (Radio Image only)"
+
+#~ msgid ""
+#~ "<strong>Title</strong>: Displayed as a contextual help menu item on the "
+#~ "Theme Options page."
+#~ msgstr ""
+#~ "<strong>Title</strong>: Displayed as a contextual help menu item on the "
+#~ "Theme Options page."
+
+#~ msgid ""
+#~ "<strong>Content</strong>: Enter the HTML content about this contextual "
+#~ "help item displayed on the Theme Option page for end users to read."
+#~ msgstr ""
+#~ "<strong>Content</strong>: Enter the HTML content about this contextual "
+#~ "help item displayed on the Theme Option page for end users to read."
+
+#~ msgid "Layout"
+#~ msgstr "Layout"
+
+#~ msgid "Activate"
+#~ msgstr "Activate"
+
+#~ msgid "Title"
+#~ msgstr "Title"
+
+#~ msgid "New Layout"
+#~ msgstr "New Layout"
+
+#~ msgid "Sorry, this function does not exist"
+#~ msgstr "Sorry, this function does not exist"
+
+#~ msgid "background-repeat"
+#~ msgstr "background-repeat"
+
+#~ msgid "background-attachment"
+#~ msgstr "background-attachment"
+
+#~ msgid "background-position"
+#~ msgstr "background-position"
+
+#~ msgid "Add Media"
+#~ msgstr "Add Media"
+
+#~ msgid "No Categories Found"
+#~ msgstr "No Categories Found"
+
+#~ msgid "No Posts Found"
+#~ msgstr "No Posts Found"
+
+#~ msgid ""
+#~ "You can re-order with drag & drop, the order will update after saving."
+#~ msgstr ""
+#~ "You can re-order with drag & drop, the order will update after saving."
+
+#~ msgid "No Pages Found"
+#~ msgstr "No Pages Found"
+
+#~ msgid "No Tags Found"
+#~ msgstr "No Tags Found"
+
+#~ msgid "No Taxonomies Found"
+#~ msgstr "No Taxonomies Found"
