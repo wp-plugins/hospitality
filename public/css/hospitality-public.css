@@ -1,0 +1,178 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ *
+ */
+
+
+.rooms_rate_item {
+	margin-bottom: 30px;
+}
+
+.room_rates_range {
+	font-weight: bold;
+}
+
+.room_pricing_list {
+	list-style-type: none ;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#room_bottom_container .rooms_amenities_list {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+
+#room_bottom_container .rooms_amenities_list  li {
+	margin-left: 0;
+}
+
+
+.rooms_pricing_list li {
+	float: left;
+	display: inline;
+	width: 175px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	background: #efefef;
+}
+	
+#room_bottom_container .hsp_row {
+	margin-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+.hsp_widget {
+	margin-bottom: 20px;
+	overflow: visible;
+}
+
+#rooms_pt_wrapper {
+	margin-bottom: 20px;
+}
+
+
+h3.rooms_price_title {
+    margin-top: 10px ;
+    margin-bottom: 10px;
+	font-weight: bold ;
+}
+
+.rooms_price_date {
+	font-style: italic;
+}
+
+.rooms_price {
+	font-weight: bold ;
+}
+
+.rooms_pricing_list {
+	margin-left: 0;
+}
+
+.room_third_widget_area {
+	clear: both;
+}
+
+#room_bottom_container {
+	padding: 0 5px 5px 5px;
+}
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+     
+
+.rooms_img_link {
+	display: block;
+	width: 100%;
+	position: relative;
+	height: 0;
+	padding: 66% 0 0 0;
+	overflow: hidden;
+
+}
+
+.room-thumbnail {
+	position: absolute;
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.rooms_slider_container {
+	width: 100% !important;
+	heigth: 100% !important;
+	margin-bottom: 20px;
+}
+
+
+#rooms_rates .row {
+	max-width: initial ;
+}
+
+
+
+.card-divider {
+	background: #cccccc;
+	height: 4em;
+	padding: 10px;
+}
+
+
+.card-section {
+	padding: 0 10px;
+	overflow: initial;
+}
+
+
+.card {
+	margin-bottom: 30px;
+	border: 1px #cccccc solid;
+}
+
+
+
+
+
+/* grid CSS  */
+
+#rooms_rates *,
+#rooms_rates *:before,
+#rooms_rates *:after {
+  box-sizing: border-box;
+}
+
+
+#rooms_rates img {
+	border-radius: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+}
+
+
+/* Card layout based on Article Card building block */
+
+
+
+ 
