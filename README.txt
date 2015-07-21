@@ -3,7 +3,7 @@ Contributors: wkempferjr, jnobles
 Donate link: http://guestaba.com/donate
 Tags: hotel, resort, hospitality
 Requires at least: 4.0
-Tested up to: 4.1
+Tested up to: 4.2.2
 Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -19,26 +19,28 @@ the best way to use the Hospitality Plugin. Default, non-shortcode usage works w
 
 [Main Page for the Guestaba Support Portal is here](http://support.guestaba.com "Guestaba Support Page"). Create an account here to receive updates.
 
-## Shortcodes
+= Shortcodes =
 
-To maximize flexibility in layout, the plugin includes several shortcodes. Room listings can be displayed on any page of your site. If the single
+To maximize flexibility in layout, the plugin includes several shortcodes. Room listings can be displayed on any page of your site simply by inserting the room listing shortcode, which is **[room_listing]**. If the single
 room page layout does not meet your needs, each component of the a room post--images, description, thumbnail, and rate information--can be
-arbitrarily positioned and styled via their respective shortcode.
+arbitrarily positioned and styled via their respective shortcode. 
 
+
+= Custom Post Types =
 
 The plugin creates three custom post types: Room, Amenity Sets, and Pricing Models. A Room post can represent
 any lodging or meeting space that can be reserved. An Amenity Set post contains a list of standard room amenities. Pricing models manage
 room rates along with their typical seasonal and other calendar-based fluctuation.
 
-## Amenity Sets
+=  Amenity Sets =
 
 Amenity Sets provide a way to create reusable lists of standard room amenities. I 
 
-## Pricing Models
+= Pricing Models =
 
 Pricing models provide a way to create reusable price group lists for a particular room which may vary based on the seasons, holidays, and local events. 
 
-## Rooms and Room Listings
+= Rooms and Room Listings =
 
 The room post type adds images and text to the preconfigured Amenity Sets and Pricing Models to create an individual room page. 
 Multiple individual room pages are collected and displayed on the Rooms Listing page featuring a thumbnail, pricing information,
@@ -67,26 +69,37 @@ and then select it to start the upload.
 The plugin can also by installed by unzipping the hospitality.zip file to your wp-content/plugins folder. 
 
 Once the plugin is installed, you can find its settings page by clicking the "action" link found in the Hospitality listing in the 
-dashboard Plugins page, or got to Settings->Hospitality. See our [support site] (http://support.guestaba.com/support/home) to find out how
+dashboard Plugins page, or got to Settings->Hospitality. See our [support site](http://support.guestaba.com/support/home) to find out how
 configure the plugin and begin entering information about your rooms and meeting spaces. 
 
 
 == Frequently Asked Questions ==
 
-See our the most up-to-date version of our [help documentation] (http://support.guestaba.com/support/home)
+See our the most up-to-date version of our [help documentation](http://support.guestaba.com/support/home)
 
 
 == Screenshots ==
 
 1. A room and rates listing.
-2. A room listing.
+2. Adding a new room: name and description fields.
+3. Adding a new room: amenties and pricing model fields.
+4. Adding a new room: image slider and related fields.
+5. Adding amenity set listing.
+6. Adding a new amenity set.
 
 == Changelog ==
 
 = 1.0.0 =
 * The initial version.
 
+= 1.0.1 =
+* Corrected markdown errors in readme.txt.
+* Corrected location of screenshots.
+
 == Upgrade Notice ==
 
-1.0.0 Initial version.
+= 1.0.0 = 
+Initial version.
 
+= 1.0.1 =  
+Administrative fixes. No code changes.
