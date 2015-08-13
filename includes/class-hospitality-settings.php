@@ -27,6 +27,8 @@ class Hospitality_Settings {
 	private $default_use_widget_area = false;
 	private $default_remove_data_on_uninstall = false;
 	private $default_amenities_title ;
+	private $default_currency_symbol = '$';
+	private $version = GUESTABA_HOSPITALITY_VERSION_NUM ;
 	
 	/**
 	 * Constructor
@@ -35,6 +37,7 @@ class Hospitality_Settings {
 	 */
 	public function __construct() {
 		$this->default_amenities_title = __( 'Amenities', GUESTABA_HSP_TEXTDOMAIN );
+
 	}
 	
 	
@@ -49,7 +52,7 @@ class Hospitality_Settings {
 	
 	
 	/*
-	 * This function is called at activation time. It records
+	 * This function is called at activation time and by the constructor. It records
 	 * the plugin settings default values in the wp_options table. 
 	 * If the plugin options already exist in the database, they 
 	 * are not overwritten. 
@@ -63,10 +66,54 @@ class Hospitality_Settings {
 			$options['hsp_room_excerpt_len'] = $this->default_excerpt_len;
 			$options['hsp_amenities_title'] = $this->default_amenities_title;
 			$options['hsp_remove_data_on_uninstall'] = $this->default_remove_data_on_uninstall;
+			$options['hsp_currency_symbol'] = $this->default_currency_symbol;
+			$options['version'] = $this->version ;
 			
 			add_option( $this->options_name, $options );
 		}
 		
+	}
+
+	/**
+	 * Function: check_options_on_update
+	 *
+	 * This function adds new settings if it detects that the plugin has been updated by
+	 * comparing the plugin's current version number with that saved in options.
+	 *
+	 * Assumption: if the plugin is installed, the initial option set is saved and so it's members
+	 * do not need to be considered.
+	 *
+	 * @param none
+	 * @return void
+	 *
+	 * @since 1.0.2
+	 *
+	 */
+	public function check_options_on_update() {
+
+		if ( current_user_can( 'activate_plugins' ) ) {
+			$option = get_option( $this->options_name);
+			if ( !isset( $option['version']) || version_compare( $option['version'], $this->version)  < 0 ) {
+
+				// Add new options here following the pattern exemplified by this first if statement.
+				// To avoid loss of user settings, be sure to check if option is already set.
+
+				// added 1.0.2
+				if (!isset( $option['version']) || version_compare( $option['version'], $this->version)  < 0 ) {
+					$option['version'] = $this->version;
+				}
+				if (!isset( $option['hsp_currency_symbol'])) {
+					$option['hsp_currency_symbol'] = $this->default_currency_symbol;
+				}
+
+				// added 1.0.3...n would go here.
+
+				// update option table
+				update_option( $this->options_name, $option );
+			}
+
+
+		}
 	}
 	
 	/*
@@ -129,7 +176,24 @@ class Hospitality_Settings {
 		$option = get_option( $this->options_name);
 		return $option['hsp_remove_data_on_uninstall'];		
 	}
-	
+
+
+
+	/*
+	 *
+	 * Return the currency symbol
+	 *
+	 * @since 1.0.2
+	 *
+	 * @param none
+	 * @return string currency symbol
+	 */
+
+	public function get_currency_symbol() {
+		$option = get_option( $this->options_name);
+		return $option['hsp_currency_symbol'];
+	}
+
 	/*
 	 * This method defines the plugin setting page. 
 	 * 
@@ -138,7 +202,7 @@ class Hospitality_Settings {
 	 * @param none
 	 * @return void
 	 */
-	public function settings_init(  ) { 
+	public function settings_init(  ) {
 
 		register_setting( 'hsp-settings-group', $this->options_name, array( $this, 'sanitize') );
 		
@@ -198,6 +262,15 @@ class Hospitality_Settings {
 			'hsp-settings-page', 
 			'hsp-settings-room-section'  
 		);
+
+
+		add_settings_field(
+			'hsp_currency_symbol',
+			__( 'Currency symbol', GUESTABA_HSP_TEXTDOMAIN ),
+			array($this, 'hsp_currency_symbol_render'),
+			'hsp-settings-page',
+			'hsp-settings-room-section'
+		);
 	}
 	
 	/*
@@ -228,7 +301,9 @@ class Hospitality_Settings {
 	 * @param none
 	 * @return none
 	 */
-	public function settings_page(  ) { 
+	public function settings_page(  ) {
+
+		$this->add_option_defaults();
 	
 		?>
 		<div class="wrap">
@@ -245,6 +320,7 @@ class Hospitality_Settings {
 			</div>
 			<div id="hsp-settings-info-container">
 				<h3>Hospitality from Guestaba</h3>
+				<p><em> Version: <?php echo $this->version ?></em></p>
 				<h3>Help Improve this Plugin</h3>
 					<p>Send us your ideas, feature requests and...donations :)</p>
 					<p><a id="hsp-setting-contact" href="https://guestaba.com/contact" target="_blank">Contact us</a></p>
@@ -309,8 +385,19 @@ class Hospitality_Settings {
 		<?php
 	
 	}
-	
 
+	/*
+	* Render the currency symbol field
+	* @since 1.0.2
+	 */
+	public function hsp_currency_symbol_render(  ) {
+
+		$options = get_option( $this->options_name );
+		?>
+		<input type="text" size="1" name="guestaba_hsp_settings[hsp_currency_symbol]" value='<?php echo $options['hsp_currency_symbol']; ?>'>
+		<?php
+
+	}
 	
 	
 	/*
@@ -329,13 +416,15 @@ class Hospitality_Settings {
         	$new_input['hsp_remove_data_on_uninstall'] = false ;
         }
 
-        
 
-         if( isset( $input['hsp_amenities_title'] ) )
+        if( isset( $input['hsp_amenities_title'] ) )
             $new_input['hsp_amenities_title'] = sanitize_text_field( $input['hsp_amenities_title'] );     
             
         if( isset( $input['hsp_room_excerpt_len'] ) )
             $new_input['hsp_room_excerpt_len'] = absint( $input['hsp_room_excerpt_len'] );
+
+		if( isset( $input['hsp_currency_symbol'] ) )
+			$new_input['hsp_currency_symbol'] = sanitize_text_field( $input['hsp_currency_symbol'] );
                     
 		return $new_input ;
 	}

@@ -242,6 +242,7 @@ class Hospitality_Shortcodes {
 
 
 		/** @var  $id string */
+		/** @var  $currency_symbol */
 		/** @var  $pricing_container_class string */
 		/** @var  $pricing_heading_class string */
 		/** @var  $pricing_table_class string */
@@ -253,6 +254,7 @@ class Hospitality_Shortcodes {
 		/** @var  $pricing_class string */
 		$atts_actual = shortcode_atts(
 			array(
+				'currency_symbol' => $this->settings->get_currency_symbol(),
 				'pricing_container_class' => 'rooms_pt_wrapper',
 				'pricing_heading_class' => 'rooms_pricing_heading',
 				'pricing_table_class' => 'rooms_pt',
@@ -303,7 +305,7 @@ class Hospitality_Shortcodes {
 									$room_pricing_date_three = '';
 								}
 
-								$currency = is_numeric($room_pricing['meta_room_price']) ? '$' : '';
+								$currency = is_numeric($room_pricing['meta_room_price']) ? $currency_symbol : '';
 								
 								$output_pricing .= '
 								<div class="' . $pricing_date_group_class . '">
@@ -740,7 +742,7 @@ class Hospitality_Shortcodes {
                 }
 
            	}
-            $room_price_range = '$' . min($output_pricing) . ' - ' . max($output_pricing);
+            $room_price_range = $this->settings->get_currency_symbol() . min($output_pricing) . ' - ' . max($output_pricing);
 
 		}
 		else {

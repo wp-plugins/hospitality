@@ -273,6 +273,7 @@ class Hospitality {
 		$this->loader->add_action('admin_menu', $hsp_settings, 'add_hsp_options_page');
 		$this->loader->add_action('admin_init', $hsp_settings, 'settings_init');
 		$this->loader->add_action('plugin_action_links_' . GUESTABA_HSP_PLUGIN_FILE, $hsp_settings, 'action_links');
+		$this->loader->add_action('plugins_loaded', $hsp_settings, 'check_options_on_update');
 
 
 		$hsp_page_manager = new Hospitality_Page_Manager();
