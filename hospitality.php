@@ -14,7 +14,7 @@
  * Plugin Name:       Hospitality
  * Plugin URI:        http://guestaba.com
  * Description:       The Hospitality plugin is tailored to the needs of the hotels and resorts. It facilates the management of information about rooms and meeting spaces, along with their amenities and rates, that you would like to display on your website. 
- * Version:           1.0.0
+ * Version:           1.0.2
  * Author:            Guestaba Team
  * Author URI:        http://guestaba.com/team
  * License:           GPL-2.0+
